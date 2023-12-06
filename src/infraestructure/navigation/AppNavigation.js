@@ -5,6 +5,7 @@ import Home from '../features/Home/Home';
 import Login from '../features/Login/Login';
 
 const AppNavigation = () => {
+  console.log('Renderizando AppNavigation');
 
   const Stack = createNativeStackNavigator();
 
